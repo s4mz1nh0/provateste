@@ -35,17 +35,18 @@ public class Teste {
         
        
         Requerimento r = new Requerimento();
-       r.aluno = a1;
-       Data d3 = new Data();
-       d3.dia = 14;
-       d3.mes = 04;
-       d3.ano = 2019;
-       r.dataRequerimento = d3;
+        r.aluno = a1;
+        Data d3 = new Data();
+        d3.dia = 14;
+        d3.mes = 04;
+        d3.ano = 2019;
+        r.dataRequerimento = d3;
+        r.descricao = "exemplo";
+        a1.mostrar();
+        a2.mostrar();
+        r.informarTipo("Inserido novos usuarios");
+        r.mostrar();
 
-       a1.mostrar();
-       a2.mostrar();
-       r.mostrar();
-       r.informarTipo(r.descricao);
     }
 
     

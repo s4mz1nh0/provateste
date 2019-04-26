@@ -15,8 +15,9 @@ public class Requerimento {
     String descricao;
     
     void mostrar(){
-    System.out.println(dataRequerimento);
-    System.out.println(aluno);
+    System.out.println(dataRequerimento.dia+"/"+dataRequerimento.mes+"/"+dataRequerimento.ano);
+    //System.out.println(aluno.Nome+" "+aluno.Cpf+" "+aluno.Rg+" "+aluno.DatadeNascimento.dia+"/"+aluno.DatadeNascimento.mes+"/"+aluno.DatadeNascimento.ano);
+    aluno.mostrar();
     System.out.println(descricao);
     }
     

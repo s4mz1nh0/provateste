@@ -18,6 +18,7 @@ public class Aluno {
     System.out.println(Nome);
     System.out.println(Cpf);
     System.out.println(Rg);
-    System.out.println(DatadeNascimento);
+    DatadeNascimento.mostrar();
+    //System.out.println(DatadeNascimento.dia+"/"+DatadeNascimento.mes+"/"+DatadeNascimento.ano);
     }
 }
